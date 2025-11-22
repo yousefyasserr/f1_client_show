@@ -82,7 +82,7 @@ loader.setDRACOLoader(dracoLoader);
 let logo;
 
 loader.load(
-    new URL('../f1.1.glb', import.meta.url).href,
+    new URL('../styles/f1.1.2.qglb.glb', import.meta.url).href,
     gltf => {
         logo = gltf.scene;
         logo.traverse(node => {
