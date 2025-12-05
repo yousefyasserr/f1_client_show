@@ -682,6 +682,18 @@ textarea:focus {
     .cart-panel {
         width: 100vw;
     }
+
+    .logo-banner {
+        min-height: 360px;
+        padding-bottom: 3.5rem;
+    }
+
+    .logo-banner__caption {
+        position: static;
+        transform: none;
+        margin: 0 auto;
+        display: inline-flex;
+    }
 }
 
 /* --- Modern layout overrides --- */
